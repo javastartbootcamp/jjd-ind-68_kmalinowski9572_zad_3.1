@@ -8,6 +8,14 @@ public class Monitor {
     String resolution;
     boolean broken;
 
+    public Monitor(String modelName, double screenSize, String aspectRatio, String resolution, boolean broken) {
+        this.modelName = modelName;
+        this.screenSize = screenSize;
+        this.aspectRatio = aspectRatio;
+        this.resolution = resolution;
+        this.broken = broken;
+    }
+
     @Override
     public String toString() {
         return "Monitor{" +
