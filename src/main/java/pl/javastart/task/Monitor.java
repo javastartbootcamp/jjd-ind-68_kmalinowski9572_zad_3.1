@@ -7,4 +7,15 @@ public class Monitor {
     String aspectRatio;
     String resolution;
     boolean broken;
+
+    @Override
+    public String toString() {
+        return "Monitor{" +
+                "modelName='" + modelName + '\'' +
+                ", screenSize=" + screenSize +
+                ", aspectRatio='" + aspectRatio + '\'' +
+                ", resolution='" + resolution + '\'' +
+                ", broken=" + broken +
+                '}';
+    }
 }

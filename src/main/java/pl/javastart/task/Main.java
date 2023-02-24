@@ -19,5 +19,8 @@ public class Main {
         monitor2.screenSize = 31.5;
         monitor2.modelName = " 32UP550N-W";
 
+        System.out.println(monitor1);
+        System.out.println(monitor2);
+
     }
 }
